@@ -1,0 +1,44 @@
+public class Endereco {
+    //atributos
+    private String nomeRua;
+    private int numero;
+    private String cidade;
+   
+    
+    //construtores    
+    public Endereco(String n, int nu, String c){
+      nomeRua = n;
+      numero = nu;
+      cidade = c;
+        
+        
+    }
+    
+    //método get
+    public String getnomeRua(){
+        return nomeRua;
+    }
+    
+    public int getnumero(){
+        return numero;
+    }
+    
+    public String getcidade(){
+        return cidade;
+    }
+    
+    //método set
+    public void setnomeRua(String novoNome){
+        nomeRua = novoNome;
+    }
+    
+    public void setnumero(int novoNum){
+        numero = novoNum;
+    }
+    
+    public void setcidade(String novaCid){
+        cidade = novaCid;
+    } 
+    
+    
+}
