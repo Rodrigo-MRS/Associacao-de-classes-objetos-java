@@ -1,0 +1,56 @@
+public class Pessoa{
+    
+    //Atributos
+    
+    private String nome;
+    private char sexo;
+    private Data dataNasc;
+    private Endereco end;
+    
+    //Construtor
+    
+    public Pessoa(String n, char s, Data dt, Endereco ed ){
+        nome = n;
+        sexo = s;
+        dataNasc = dt;
+        end = ed;
+        }
+     
+           
+  
+    //Método get
+    public String getnome(){
+        return nome;
+    }
+    
+    public char getsexo(){
+        return sexo;
+    }
+    
+    public Data getdataNasc(){
+        return dataNasc;
+    }
+    
+    public Endereco getend(){
+        return end;
+    }
+    
+    //Método set
+        
+    public void setnome(String novoNome){
+     nome = novoNome;
+    }
+    
+    public void setsexo(char novoSexo){
+     sexo = novoSexo;
+    }
+    
+    public void setdataNasc(Data novoDataNasc){
+    dataNasc = novoDataNasc;
+    }
+    
+    public void setend(Endereco novoEnd){
+    end = novoEnd;
+    }
+}
+    
